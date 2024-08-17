@@ -7,6 +7,7 @@ public class operation {
         String str = sc.nextLine();
 
         System.out.println(OperationBinaryString(str));
+        sc.close();
     }
 
     public static int  OperationBinaryString(String str) {
