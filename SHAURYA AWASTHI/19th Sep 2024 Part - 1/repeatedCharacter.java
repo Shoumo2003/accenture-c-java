@@ -1,7 +1,5 @@
-import java.util.Arrays;
-
 class repeatedCharacter {
-    public char repeatedCharacter(String s) {
+    public char RepeatedCharacter(String s) {
         int[] freq = new int[26];
 
         for (int i = 0; i < s.length(); i++) {
